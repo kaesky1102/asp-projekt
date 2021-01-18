@@ -49,6 +49,9 @@
                 <asp:BoundField DataField="adres" HeaderText="adres" SortExpression="adres" />
             </Columns>
         </asp:GridView>
+    	<br />
+		<br />
+		<asp:Button ID="Button2" runat="server" Height="58px" OnClick="Button2_Click" Text="Button" Width="197px" />
     </form>
     </body>
 </html>

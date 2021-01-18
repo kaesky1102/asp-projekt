@@ -23,5 +23,10 @@ namespace _18._12
         {
 
         }
+
+        protected System.Void Button2_Click(System.Object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
