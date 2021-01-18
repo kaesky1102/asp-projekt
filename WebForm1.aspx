@@ -52,6 +52,7 @@
     	<br />
 		<br />
 		<asp:Button ID="Button2" runat="server" Height="58px" OnClick="Button2_Click" Text="Button" Width="197px" />
+        <asp:Image ID="Image1" runat="server" Height="92px" Width="595px" />
     </form>
     </body>
 </html>
