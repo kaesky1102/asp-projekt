@@ -1,17 +1,136 @@
 ﻿body {
+    background-color: lightblue;
+    font-family: "Lato";
+    color: #48284A;
 }
-.main{
 
+header {
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
-.banner{
 
+#header {
+    height: 300px;
+    width: 85%;
+    border-radius: 20px;
 }
-.content{
 
+#navigation {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
 }
-.nav{
 
+    #navigation ul {
+        text-align: center;
+        width: 80%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    #navigation li {
+        font-weight: bold;
+        width: 24%;
+        text-align: center;
+        float: left;
+        margin-left: 5px;
+        background-color: #FFF7AE;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        border: 2px solid #48284A;
+    }
+
+.container1 {
+    margin-top: 20px;
+    background-color: #916C80;
+    width: 20%;
+    float: left;
+    height: 800px;
+    text-align: center;
+    border-radius: 20px;
 }
-.footer{
 
+.ad1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.ad2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.continer2 {
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    height: 600px;
+}
+
+.inside {
+    background-color: #FFE1C6;
+    margin: 20px;
+    margin-right: 50px;
+    padding: 20px;
+    height: 750px;
+    border-radius: 20px;
+}
+
+.inside1 {
+    width: 50%;
+    float: left;
+}
+
+    .inside1 p {
+        margin: 25px;
+        font-size: 25px;
+    }
+
+.inside2 {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+    .inside2 img {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 200px;
+        border-radius: 20px;
+        height: 200px;
+    }
+
+footer {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: #FFC6D9;
+    float: left;
+    margin-top: 20px;
+}
+
+.site {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.author {
+    width: 50%;
+    float: left;
+    text-align: center;
 }
